@@ -1,0 +1,132 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1585735119407-b037131a352b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+  background-size: 100% 100%;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+form{
+  margin: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+ 
+ 
+nav{
+
+  /* background-color: black; */
+  height: 100vh;
+  padding: 20px 0;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.5;
+
+ 
+ 
+  /* position: fixed; */
+
+ 
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 10px;
+  width: 190px;
+}
+h2{
+  font-size: 2rem;
+  color:rgb(52, 58, 143); 
+  background-color: rgb(0,119,246);
+  opacity: 0.8;
+}
+nav ul li{
+  font-size: 1.6rem;
+  
+}
+
+a {
+  color: rgb(52, 58, 143);
+  text-decoration: none;
+}
+.recipes {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recipes li{
+  margin: 5px 10px;
+  padding: 37px 10px 20px 10px;
+  min-width: 150px;
+  list-style: none;
+  border: 2px solid  rgb(116,125,80) ;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+ 
+
+main{
+  width: 100%;
+
+  padding: 0 30px;
+  border-left: 1px solid white;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.name{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

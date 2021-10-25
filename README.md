@@ -21,8 +21,8 @@ The Recipe app   is an app that allows users to store recipes. The app uses expr
 ## How To Use:
   - Fork the repo
   - Clone your forked repo.
-  - Make sure you add a MongoDB url
   - Do 'npm install' in your terminal.
   - Run with 'npm start' in your terminal.
+  - Log in with 'admin@admin.com'  password: 'admin'
 
 

@@ -1,5 +1,8 @@
-# Node Social Network
-This CRUD app with user login and authentication allows you to create, update, and delete posts. All uploaded images are stored using Cloudinary. User account information is stored elsewhere in MongoDB.
+# Recipes
+
+The Recipe app   is an app that allows users to store recipes. The app uses express.js to process the user’s request in the server-side. 
+
+
 
 <article>
       <div>
